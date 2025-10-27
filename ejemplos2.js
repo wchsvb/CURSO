@@ -25,3 +25,14 @@ const persona = {
  //date objeect
  const hoy = new Date();
  console.log(hoy);
+
+ let age2 = 20;
+ let text2= (age) >= 18 ? "mayor de edad" : "menor de edad";
+ console.log(text2);
+// funciones
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+let temp = toCelsius(77);
+console.log(temp);
+
